@@ -1,0 +1,12 @@
+/* GRID 16 columnas */
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    column-gap: 20px;
+}
+.container header{
+    grid-column: 1/span 10;
+    height: 491px;
+    background-color: #000;
+}
